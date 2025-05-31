@@ -1,8 +1,7 @@
 ---
-title: Put main title here
-subtitle: Sub-title goes here
+title: Recent development in AI
+subtitle: An exploration of 2020-2030
 format: clean-revealjs
-
 html-math-method:
   method: mathjax
   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
@@ -11,7 +10,7 @@ author:
     orcid: 0000-0001-8979-9194
     email: daniel@kapitan.net
     affiliations: Eindhoven AI Systems Institute
-date: last-modified
+date: 2025-07-04
 
 ---
 
@@ -21,15 +20,14 @@ date: last-modified
 
 This lecture is based on the following open access materials:
 
-- Voltron Data, [The Composable Codex](https://voltrondata.com/codex/a-new-frontier)
-- Cody Peterson, [Modern, hybrid, open analytics](https://anthology-of-data.science/posts/ibis-analytics/)
-- Thierry Jean, [Portable dataflows with Ibis and Hamilton](https://anthology-of-data.science/posts/hamilton-ibis/)
-- Documentation of the following Python libraries: [DuckDB](https://duckdb.org/docs/), [Ibis](https://ibis-project.org), [hamilton](https://github.com/dagworks-inc/hamilton), [polars](https://docs.pola.rs/), [Shiny for Python](https://shiny.posit.co/py/)
+- Karniadakis et al. (2021), [Physics-informed machine learning](https://www.nature.com/articles/s42254-021-00314-5).
+- Maarten Grootendorst (2025), [A visual guide to LLM agents](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-llm-agents).
+- Kokotajlo et al. (2025), [AI 2027](https://ai-2027.com/).
 
-Source code: [https://github.com/anthology-of-data-science/lecture-composable-data-stack](https://github.com/anthology-of-data-science/lecture-composable-data-stack)
+Source code:<br>[https://github.com/anthology-of-data-science/lecture-recent-developments-ai](https://github.com/anthology-of-data-science/lecture-recent-developments-ai)
 
 ```{=html}
-<p xmlns:cc="http://creativecommons.org/ns#" >Daniel Kapitan, <em>Modern, open and downward-scaleable data engineering</em>.<br>This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" >Daniel Kapitan, <em>Recent development in AI</em>.<br>This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
 ```
 :::
 
@@ -41,40 +39,35 @@ Source code: [https://github.com/anthology-of-data-science/lecture-composable-da
 
 ::: {.column width="50%"}
 
-### Understand the problem
+### Learn
 
-- how data platforms evolved in the past couple of decades
-- current problems with data platforms
-- what concepts underlie the composable data stack
-- what concepts underlie modern data engineering workflows
-
+- Physics-informed machine learning
+- LLM agents
+- Trends in frontier models
 :::
 
 ::: {.column width="50%"}
 
-### Know how to
+### Do
 
-- Build end-to-end data pipeline using open source implementations of the composable data stack
-- Apply best practices of functional data engineering
-- Apply the split-apply-combine strategy with various syntaxes
+- Hand-on session on exploring toolkit for LLM agents and MCP
+- Exploration of future scenarios on societal and ethical impact of AI
 
 :::
 ::::
 
-::: {style="font-size: 80%;"}
-### Reflect
-
-- on how this impact your (future) work as a data engineer
-- on the pro's and con's of open standards and open source
-
-::: 
 
 
-# A new section
-## A new slide
-### Subtitle of new slide in new section
 
-- Today
-- ... is a beautiful day.
+# So what is the current state of AI?
+## Path dependence
+### source: [Wkipedia](https://en.wikipedia.org/wiki/Path_dependence)
+
+**Path dependence** is a concept in the social sciences, referring to processes where past events or decisions constrain later events or decisions. It can be used to refer to outcomes at a single point in time or to long-run equilibria of a process. Path dependence has been used to describe institutions, **technical standards**, patterns of economic or social development, organizational behavior, and more.
+
+This means:
+
+- The future development of AI is affected by the path it has traced out in the past
+- past events or decisions affect future events or decisions in significant or disproportionate ways, through mechanisms such as increasing returns, positive feedback effects and other mechanisms.
 
 ## Thanks for your attention. {background-image="images/speakerscorner.jpg" background-size="contain" background-repeat="no-repeat"}
