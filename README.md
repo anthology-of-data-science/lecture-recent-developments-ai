@@ -1,9 +1,6 @@
-# Template for creating a Quarto reveal.js presentation
+# Lecture on recent advances in AI
 
-
-![](images/title-slide.png)
-
-## Getting started
+## Using this repo
 
 This template uses a [minimalist, clean theme](https://github.com/anthology-of-data-science/quarto-revealjs-clean). To use it:
 
