@@ -24,6 +24,7 @@ This lecture is based on the following open access materials:
 - Ben Moseley (2021), [So, what is a physics-informed neural network?](https://benmoseley.blog/my-research/so-what-is-a-physics-informed-neural-network/).
 - Maarten Grootendorst (2025), [A visual guide to LLM agents](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-llm-agents).
 - Kokotajlo et al. (2025), [AI 2027](https://ai-2027.com/).
+- Robert Elbrink (class 2025), [pydantic AI walkthrough](https://github.com/EAISI/pydantic-ai-walkthrough)
 
 Source code:<br>[https://github.com/anthology-of-data-science/lecture-recent-developments-ai](https://github.com/anthology-of-data-science/lecture-recent-developments-ai)
 
